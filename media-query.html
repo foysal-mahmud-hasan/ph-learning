@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Continued</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .food {
+            border: 2px solid aqua;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .food img {
+            width: 100%;
+        }
+
+        /* Smaller Device */
+        @media screen and (max-width : 576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .food {
+                background-color: tomato;
+            }
+
+
+        }
+
+        /* Medium Device */
+        @media screen and (min-width : 577px) and (max-width : 992px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .food {
+                background-color: aliceblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .container>.food*12>img[src="/images/foysal-mahmud-hasan.jpg"]+h3{Food Item - $}+p{Price: /$$00}+p>Lorem20^btn{Buy Now} -->
+    <div class="container">
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 1</h3>
+            <p>Price: /0100</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae sit accusamus quos maiores
+                cupiditate nesciunt quae itaque adipisci a blanditiis?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 2</h3>
+            <p>Price: /0200</p>
+            <p>Maiores, obcaecati. Eos, deleniti dolore optio fuga animi temporibus, aut voluptate quis obcaecati
+                perspiciatis omnis aperiam nihil expedita tenetur cupiditate!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 3</h3>
+            <p>Price: /0300</p>
+            <p>Ex nesciunt assumenda maxime, odit quasi, voluptatem enim iure quod dolorum sapiente corrupti quaerat
+                excepturi? Quis necessitatibus pariatur officiis repellat.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 4</h3>
+            <p>Price: /0400</p>
+            <p>Fugit praesentium illum facilis dicta omnis deleniti sint ad sequi nesciunt eius quas quaerat laborum
+                dignissimos magnam consequatur, officiis vel?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 5</h3>
+            <p>Price: /0500</p>
+            <p>Dolorum odio sit hic laudantium, itaque excepturi saepe at a nam nostrum nisi cum optio earum debitis
+                ipsa vel minima.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 6</h3>
+            <p>Price: /0600</p>
+            <p>Accusamus nihil quam, dignissimos nulla voluptates laboriosam iusto doloribus asperiores? Facere voluptas
+                distinctio assumenda rem autem obcaecati ut nesciunt sunt?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 7</h3>
+            <p>Price: /0700</p>
+            <p>Omnis, iusto voluptatibus. Ipsum iusto maxime, eveniet delectus architecto sed cum? Non iste inventore
+                molestiae hic ab asperiores aliquid ipsum.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 8</h3>
+            <p>Price: /0800</p>
+            <p>Libero amet fugit itaque aut, mollitia voluptate incidunt laboriosam, totam reprehenderit quaerat quas
+                harum? Vitae quam culpa sunt aperiam fugit.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 9</h3>
+            <p>Price: /0900</p>
+            <p>Dolorem omnis, pariatur eligendi distinctio dignissimos animi eius deserunt vero. Accusamus dicta cumque
+                possimus porro repellendus voluptate quasi, impedit architecto!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 10</h3>
+            <p>Price: /1000</p>
+            <p>Aliquam vitae sint sequi veniam. Quasi veritatis repudiandae molestiae commodi totam ipsam quae,
+                consequuntur, praesentium dolor nam dolorum dignissimos minus?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 11</h3>
+            <p>Price: /1100</p>
+            <p>Ad quo, veniam quos sint laborum cupiditate. Quod quia ut voluptatum consectetur voluptate dolorum optio
+                itaque! Suscipit consequatur veniam dolorum.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="/images/foysal-mahmud-hasan.jpg" alt="">
+            <h3>Food Item - 12</h3>
+            <p>Price: /1200</p>
+            <p>Voluptas porro distinctio tenetur dolorum nesciunt assumenda, eum a, provident eaque, deserunt excepturi
+                quam iste in est odit. Facilis, eveniet.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
